@@ -1,0 +1,44 @@
+.header .navBtn{
+    visibility:hidden ;
+    position:absolute;
+}
+@media only screen and (max-width: 700px){
+    .header .navBtn{
+        visibility:visible;
+        opacity:1;
+        position:static;
+        color: black;
+    }
+    .header nav div{
+        position:fixed;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:1.5rem; 
+        /* background-color:rgb(197, 87, 197); */
+        backdrop-filter: blur(12px); 
+        border:2px solid purple;
+        transition: 1s;
+        transform:translateY(-100vh);
+    }
+    .header nav div > a:hover{
+        text-underline-offset: 9px;
+    }
+
+    .header .responsiveNav{
+        z-index: 10;
+        transform: none;
+    }
+    .header .navCloseBtn{
+        position: absolute;
+        font-size: 30px;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
+    }
+}

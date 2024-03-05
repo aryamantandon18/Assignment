@@ -1,0 +1,27 @@
+form > .image{
+    transform: translateX(100%) ;
+}
+.homePage{
+    height:83vh;
+}
+input[type="file"]{
+    display: none;
+}
+.inputBtn{
+    text-align: center;
+    width: 100%;
+    background-color: #9333ea;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem ;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+}
+.inputBtn:hover{
+    background-color: #7f2ccc;
+}
+form{
+    background: linear-gradient(45deg,rgb(241, 156, 241),white);
+}
+
+  
