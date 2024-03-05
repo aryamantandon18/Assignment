@@ -1,9 +1,6 @@
 form > .image{
     transform: translateX(100%) ;
 }
-.homePage{
-    height:83vh;
-}
 input[type="file"]{
     display: none;
 }

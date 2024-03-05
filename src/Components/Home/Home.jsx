@@ -60,7 +60,7 @@ const Home = () => {
     console.log('imageUrls updated:', imageUrls);
   }, [imageUrls]);
   return (
-    <div className='flex flex-col gap-2 homePage'>
+    <div className='flex flex-col gap-2 '>
       <h1 className='w-full h-[10vh] flex items-center justify-center border border-black font-normal text-2xl'>Generate Image Link</h1>
       <div className='w-full h-[50vh] flex justify-center items-center'>
       <form className=' border border-black flex flex-col gap-6 p-4 h-5/6 min-w-80 justify-end rounded-md'>
